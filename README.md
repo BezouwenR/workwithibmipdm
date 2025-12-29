@@ -1,6 +1,10 @@
 # Work with IBM i - Programming Development Manager for Windows (PDM)
 This is the distribution and support site for the FREE Work with IBM i client project. 
 
+## News
+❗ 12/29/2025 - Coming soon in early 2026. Work with IBM i gains IBM i connectivity without the need for SSH.  We're removing the need to use SSH for connectivity with the Work for IBM i product. Connectivity will work over the same ports using by IBM i access. (446-446, 8470-8479).
+
+## Overview
 Since PDM and SEU are being deprecated over time, The goal of this project is to create a FREE Windows based alternative for PDM developers who are just starting the journey to move their development to the Windows desktop.   
 
 Both VS Code and RDi are good development enviroments, but it's good to have options. Especially ones that give you editor freedom of choice and ability to use existing PDM user options. 
@@ -29,7 +33,7 @@ As a future enhancement .Net developers will be able to create their own alterna
 
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/9791508/188206784-4e06bbce-bdd4-430a-8553-ff5891dc5881.png">
 
-# Downloading the latest release 
+## Downloading the latest release 
 https://github.com/richardschoen/workwithibmipdm/releases/tag/v1.0.1.9-dev
 
 The app installer is currently a ZIP archive.    
@@ -42,7 +46,7 @@ Then run the app or create a short cut to the app executable:
 Your AppSettings.xml file with personalized settings will get created here:
 ```C:\Users\<username>\AppData\Roaming\MobiGoGo, LLC\Work with IBM i\AppSettings.xml```
 
-# IBM i Requirements
+## IBM i Requirements
 IBM i V7R3 and above.
 
 SSH must be enabled and running for connectivity.
@@ -61,22 +65,21 @@ The app creates and uses a temporary IFS directory named: ```/tmp/workwithibmi``
 
 There may be a few others I have not listed yet.....
 
-# PC Requirements
+## PC Requirements
 Windows 10 and above. So far only tested on Windows 10 and 11.   
 
-App is based on .Net 9 so no special .Net runtimes or frameworks should be needed other than the app package.
+App is based on .Net 10 so no special .Net runtimes or frameworks should be needed other than the app package.
 
-# Source sequence numbers and source dates
+## Source sequence numbers and source dates
 #### Warning about source dates and sequence numbers
 ❗ ⚠️ Source sequence numbers and source date are NOT preserved when a source member is replaced.    
 
 If you use Work with IBM i to download and edit source members, line numbers and source dates are NOT preserved. We're assuming you're stepping in to the brave new world of using PCs to edit your source members where binary line changes and Git or tools like WinMerge can show you exactly what has changed in a source member instead of relying on source sequence numbers and dates or initials in the first 5 columns to identify a change. Source dates and sequence numbers are outdated methods for tracking source changes when tools like Git handle the change tracking automatically in a source member.   
 
-# Feedback, Developer Training and Support for Git
+## Feedback, Developer Training and Support for Git
 Please submit feedback as issues on the GitHub issues tab.
 
 You can also feel free to reach out via email:  richard@mobigogo.net or richard@richardschoen.net if needed.   
-
 
 And if you're looking for an easy to implement source management solution for IBM i Source Members and Git, look no further than iForGit. https://www.iforgit.com
 
